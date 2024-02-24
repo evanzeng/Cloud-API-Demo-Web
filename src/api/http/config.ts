@@ -6,8 +6,8 @@ export const CURRENT_CONFIG = {
   appLicense: 'cY+hdGbzEKWpQLHlvnI9zmNi4vGVLC/ztNy2NmKgAZYzYaKiqgKJy3dxznjRbLpOsBoVNmPYrXcJhuWc0VE71CwpLOkkjtJHhgAHVh4SW4v6ljcjcQ+AzV/je0MGiOQqL58h8AkZLPxC0kABAsdg11LxuBYojA5mc3FUV1mNQNU=', // You need to go to the development website to apply.
 
   // http
-  baseURL: 'https://183.62.140.181:6443/', // This url must end with "/". Example: 'http://192.168.1.1:6789/'
-  websocketURL: 'wss://183.62.140.181:6443/api/v1/ws', // Example: 'ws://192.168.1.1:6789/api/v1/ws'
+  baseURL: 'https://kinghighway.com:6443/', // This url must end with "/". Example: 'http://192.168.1.1:6789/'
+  websocketURL: 'wss://kinghighway.com:6443/api/v1/ws', // Example: 'ws://192.168.1.1:6789/api/v1/ws'
 
   // livestreaming
   // RTMP  Note: This IP is the address of the streaming server. If you want to see livestream on web page, you need to convert the RTMP stream to WebRTC stream.
