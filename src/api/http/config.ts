@@ -1,10 +1,14 @@
 export const CURRENT_CONFIG = {
 
   // license
+  appId: '135860', // You need to go to the development website to apply.
+  appKey: '3ca2ed73da8d49f6a7d38c0a5b06c11', // You need to go to the development website to apply.
+  appLicense:
+    'cY+hdGbzEKWpQLHlvnI9zmNi4vGVLC/ztNy2NmKgAZYzYaKiqgKJy3dxznjRbLpOsBoVNmPYrXcJhuWc0VE71CwpLOkkjtJHhgAHVh4SW4v6ljcjcQ+AzV/je0MGiOQqL58h8AkZLPxC0kABAsdg11LxuBYojA5mc3FUV1mNQNU=', // You need to go to the development website to apply.
 
   // http
-  baseURL: 'https://kinghighway.com:6443/', // This url must end with "/". Example: 'http://192.168.1.1:6789/'
-  websocketURL: 'wss://kinghighway.com:6443/api/v1/ws', // Example: 'ws://192.168.1.1:6789/api/v1/ws'
+  baseURL: 'http://localhost:6789/', // This url must end with "/". Example: 'http://192.168.1.1:6789/'
+  websocketURL: 'ws://localhost:6789/api/v1/ws', // Example: 'ws://192.168.1.1:6789/api/v1/ws'
 
   // livestreaming
   // RTMP  Note: This IP is the address of the streaming server. If you want to see livestream on web page, you need to convert the RTMP stream to WebRTC stream.
@@ -28,5 +32,6 @@ export const CURRENT_CONFIG = {
 
   // map
   // You can apply on the AMap website.
-
+  amapKey: '12abb02fd5cb731833f0f4762ecb0467',
+  amapCode: '09ebadf3244695c49f254be1106deb48',
 }
