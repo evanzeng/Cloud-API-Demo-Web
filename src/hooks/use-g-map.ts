@@ -1,7 +1,7 @@
 import AMapLoader from '@amap/amap-jsapi-loader'
 import { App, reactive } from 'vue'
 import { AMapConfig } from '/@/constants/index'
-import { CURRENT_CONFIG } from '/@/api/http/config';
+import { CURRENT_CONFIG } from '/@/api/http/config'
 
 export function useGMapManage () {
   const state = reactive({
@@ -13,7 +13,7 @@ export function useGMapManage () {
   async function initMap (container: string, app:App) {
     (window as any)._AMapSecurityConfig = {
       securityJsCode: CURRENT_CONFIG.amapCode,
-    };
+    }
     AMapLoader.load({
       ...AMapConfig
     }).then((AMap) => {
